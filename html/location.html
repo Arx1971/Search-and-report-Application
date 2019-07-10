@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Location</title>
+</head>
+<body>
+
+	<header id="Browser-header">
+		<div class="Browser-container">
+			<h1>Location</h1>
+		</div>
+	</header>
+
+	<div class="location">
+		<p id="href"></p>
+
+		<script>
+			document.getElementById("href").innerHTML = 
+			"The full URL of this page is:<br>" + window.location.href;
+		</script>
+
+		<p id="hostname"></p>
+
+		<script>
+			document.getElementById("hostname").innerHTML = 
+			"Page hostname is: " + window.location.hostname;
+		</script>
+
+		<p id="pathname"></p>
+
+		<script>
+			document.getElementById("pathname").innerHTML =
+			"Page path is " + window.location.pathname;
+		</script>
+
+		<p id="protocol"></p>
+
+		<script>
+			document.getElementById("protocol").innerHTML =
+			"Page protocol is " + window.location.protocol;
+		</script>
+	</div>
+
+</body>
+</html>

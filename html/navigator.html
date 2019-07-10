@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigator</title>
+</head>
+<body>
+
+	<header id="Browser-header">
+		<div class="Browser-container">
+			<h1>Navigator</h1>
+		</div>
+	</header>
+
+		<div class="navigator">
+
+			<p id="appName"></p>
+
+			<script>
+				document.getElementById("appName").innerHTML =
+				"Navigator App Name is " + navigator.appName;
+			</script>
+
+			<p id="product"></p>
+
+			<script>
+				document.getElementById("product").innerHTML =
+				"Navigator product is " + navigator.product;
+			</script>
+
+			<p id="appVersion"></p>
+
+			<script>
+				document.getElementById("appVersion").innerHTML = navigator.appVersion;
+			</script>
+
+			<p id="userAgent"></p>
+
+			<script>
+				document.getElementById("userAgent").innerHTML = navigator.userAgent;
+			</script>
+
+			<p id="platform"></p>
+
+			<script >
+				document.getElementById("platform").innerHTML = navigator.platform;
+			</script>
+
+			<p id="language"></p>
+			<script>
+				document.getElementById("language").innerHTML ="Language " + navigator.language;
+			</script>
+			
+		</div>
+</body>
+</html>

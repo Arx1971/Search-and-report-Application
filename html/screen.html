@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Screen</title>
+</head>
+<body>
+
+	<header id="Browser-header">
+		<div class="Browser-container">
+			<h1>Screen</h1>
+		</div>
+	</header>
+		<div class="screen">
+	
+			<p id="ScreenWidth"></p>
+
+			<script>
+				document.getElementById("ScreenWidth").innerHTML =
+				"Screen Width: " + screen.width;
+			</script>
+
+			<p id="Screen Height"></p>
+
+			<script>
+				document.getElementById("ScreenHeight").innerHTML =
+				"Screen Height: " + screen.height;
+			</script>
+
+			<p id="availwidth"></p>
+
+			<script>
+				document.getElementById("availwidth").innerHTML =
+				"Available Screen Width: " + screen.availWidth;
+			</script>
+
+			<p id="availheight"></p>
+
+			<script>
+				document.getElementById("availheight").innerHTML =
+				"Available Screen Height: " + screen.availHeight;
+			</script>
+
+			<p id="Colordepth"></p>
+
+			<script>
+				document.getElementById("Colordepth").innerHTML = 
+				"Screen Color Depth: " + screen.colorDepth;
+			</script>
+
+			<p id="pixeldepth"></p>
+
+			<script>
+				document.getElementById("pixeldepth").innerHTML =
+				"Screen Pixel Depth: " + screen.pixelDepth;
+			</script>
+
+		</div>
+</body>
+</html>
