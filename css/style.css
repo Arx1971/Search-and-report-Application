@@ -1,10 +1,16 @@
 body{
-  background-color: #f4f4f4;
-  color: #555;
-  font-family: Arial, Helvetica;
-  font-size: 16px;
-  line-height: 1.6em;
-  margin: 0;
+  background-image: url('https://i.ytimg.com/vi/PtsrQb7_RLo/maxresdefault.jpg');
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  position: fixed; 
+  top: 10; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .container{
