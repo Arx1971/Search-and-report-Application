@@ -21,6 +21,8 @@
 		<div class="dropdown">
 			<div class = "search">
 					<input type="text" id = "myText" placeholder="search...">
+					<button onclick="(myFunction(myArray))">Search</button>
+					<div id="id01"></div>
 					<script>
 						var myArray = [
 						{
@@ -39,25 +41,24 @@
 
 					</script>
 					
-					<button onclick="myFunction(myArray)">Search</button>
-
-					<div id="id01"></div>
+					
 					
 					<script>
 
 						myFunction(myArray);
 							function myFunction(arr) {
-							var out = "";
+							var out = " ";
 							var i;
 							var x = document.getElementById("myText").value;
+							var msg = "not a valid search";
 							for(i = 0; i < arr.length; i++) {
 								if(arr[i].display.toUpperCase() == x.toUpperCase()){
-									out += '<a href="' + arr[i].url + '">' + 
-									arr[i].display + '</a><br>';
+									out = '<h3>' + '<a href="' + arr[i].url + '">' + 
+									arr[i].display + '</a>' + '</h3>';
 								}
 							}
-								document.getElementById("id01").innerHTML = out;
-							}
+							document.getElementById("id01").innerHTML = out;
+						}
 					</script>
 			</div>
 		</div>
