@@ -103,7 +103,7 @@ body{
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
+  color: coral;
   width: 80%;
   padding: 20px;
 }
@@ -171,4 +171,15 @@ body{
 .geolocationclass p{
   font-size: 20px;
   color: white;
+}
+
+.navigator h3{
+  color: #F16F6F;
+}
+
+.screen h4{
+  color: #F16F6F;
+}
+.location h3{
+  color: #F16F6F;
 }

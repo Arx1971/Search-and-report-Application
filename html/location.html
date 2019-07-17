@@ -8,45 +8,46 @@
 		<script src="../javascript/node.js"></script>
 </head>
 <body>
-
 	<nav id="navbar">
-			
-			<div class="container">
-
-	
-				<div class="dropdown">
-					<button class="dropbtn" onclick="window.location.href='../index.html'">HOME</button>					
-				</div>
+		<div class="container">
+			<div class="dropdown">
+				<button class="dropbtn" onclick="window.location.href='../index.html'">HOME</button>			
 			</div>
-		</nav>
+		</div>
+	</nav>
 
 	<div class="location">
+
+		<h3>The full URL of this page is:</h3>
+
 		<p id="href"></p>
 
 		<script>
 			document.getElementById("href").innerHTML = 
-			"The full URL of this page is:<br>" + window.location.href;
+			window.location.href;
 		</script>
 
+		<h3>Page hostname is:</h3>
 		<p id="hostname"></p>
 
 		<script>
 			document.getElementById("hostname").innerHTML = 
-			"Page hostname is: " + window.location.hostname;
+			window.location.hostname;
 		</script>
-
+		<h3>Page path is:</h3>
 		<p id="pathname"></p>
 
 		<script>
 			document.getElementById("pathname").innerHTML =
-			"Page path is " + window.location.pathname;
+			window.location.pathname;
 		</script>
 
-		<p id="protocol"></p>
 
+		<h3>Page protocol is: </h3>
+		<p id="protocol"></p>
 		<script>
 			document.getElementById("protocol").innerHTML =
-			"Page protocol is " + window.location.protocol;
+			window.location.protocol;
 		</script>
 	</div>
 
