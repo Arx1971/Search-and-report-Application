@@ -45,7 +45,7 @@ body{
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  border: blue;
 }
 
 .dropdown {
@@ -91,6 +91,10 @@ body{
   background-color: #ddd;
   color: coral;
   font-family: Arial;
+}
+
+.search a{
+  color: coral;
 }
 
 .bar {

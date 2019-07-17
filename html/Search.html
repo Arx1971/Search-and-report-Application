@@ -20,10 +20,45 @@
 		</nav>
 		<div class="dropdown">
 			<div class = "search">
-				<form>
-					<input type="text" placeholder="search...">
-						<button>Search</button>
-				</form>
+					<input type="text" id = "myText" placeholder="search...">
+					<script>
+						var myArray = [
+						{
+							"display": "JavaScript Tutorial",
+							"url": "https://www.w3schools.com/js/default.asp"
+						},
+						{
+							"display": "HTML Tutorial",
+							"url": "https://www.w3schools.com/html/default.asp"
+						},
+						{
+							"display": "CSS Tutorial",
+							"url": "https://www.w3schools.com/css/default.asp"
+						}
+						];
+
+					</script>
+					
+					<button onclick="myFunction(myArray)">Search</button>
+
+					<div id="id01"></div>
+					
+					<script>
+
+						myFunction(myArray);
+							function myFunction(arr) {
+							var out = "";
+							var i;
+							var x = document.getElementById("myText").value;
+							for(i = 0; i < arr.length; i++) {
+								if(arr[i].display.toUpperCase() == x.toUpperCase()){
+									out += '<a href="' + arr[i].url + '">' + 
+									arr[i].display + '</a><br>';
+								}
+							}
+								document.getElementById("id01").innerHTML = out;
+							}
+					</script>
 			</div>
 		</div>
 	</body>
