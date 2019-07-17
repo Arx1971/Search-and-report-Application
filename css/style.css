@@ -1,32 +1,28 @@
 body{
-  background-image: url('https://i.ytimg.com/vi/PtsrQb7_RLo/maxresdefault.jpg');
+  background-image: url('https://wallpapercave.com/wp/wp2581392.jpg');
   background-color: #cccccc;
-  height: 500px;
+  height: 900px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  position: fixed; 
   top: 10; 
   left: 0; 
-  min-width: 100%;
-  min-height: 100%;
+  
 }
-
 .container{
   width: 100%;
   height: auto;
   margin: auto;
-  !overflow: hidden;
-}
+ }
 
 #main-header{
   color: grey;
 }
 
 #navbar{
-  background-color: #331;
-  color: #fff;
+  background-color: #333;
+  color: white;
 }
 
 #navbar ul{
@@ -45,7 +41,7 @@ body{
   padding-right: 15px;
 }
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: coral;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -93,4 +89,86 @@ body{
   margin-top: 7;
   border: none;
   background-color: #ddd;
+  color: coral;
+  font-family: Arial;
+}
+
+.bar {
+  position: bottom right;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.header {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 80%;
+  padding: 20px;
+}
+
+
+.search-ui{
+  position: center;
+  width: 30px;
+}
+
+.search-ui input[type="text"]{
+  position:absolute;  
+  left:30%;
+  top:25%;
+  width:30%;
+  background-color:white; 
+  color:grey;
+}
+
+.search123{
+  position: right;
+  display: inline-block;
+}
+
+.about{
+  font-size: 16px;
+  color: white;
+}
+
+.location{
+  font-size: 20px;
+  color: white;
+}
+
+.navigator{
+  font-size: 20px;
+  color: white;
+}
+
+.screen{
+  font-size: 20px;
+  color: white;
+}
+
+.window{
+  font-size: 20px;
+  color: white;
+}
+
+.screen{
+  font-size: 20px;
+  color: white;
+}
+
+.about h3{
+  font-size: 20px;
+  color: #F16F6F;
+}
+.about a{
+  font-size: 20px;
+  color: #05D9D3;
+  font-weight: bold;
+}
+
+.geolocationclass p{
+  font-size: 20px;
+  color: white;
 }
