@@ -187,3 +187,9 @@ body{
 .location h3{
   color: #F16F6F;
 }
+
+.feedback_form h1{
+  color: white;
+  font-family: Arial;
+  font-size: 20;
+}

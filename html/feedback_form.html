@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feed Back Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="../javascript/node.js"></script>
+</head>
+<body>
+	<nav id="navbar">
+			<div class="container">
+				<div class="dropdown">
+					<button class="dropbtn" onclick="window.location.href='../index.html'">HOME</button>	
+				</div>
+			</div>
+		</nav>
+		<div class="feedback_form">
+			<h1>Feedback Form</h1>
+			<form method="post" action="../php/send_mail.php">
+				<p>
+					<label>First Name
+						<input type="text" name="first_name" required>
+					</label> 
+				</p>
+				<p>
+					<label>Email 
+						<input type="email" name="email_address">
+					</label>
+				</p>
+				<p>
+					<label>Comments
+						<textarea name="comments" maxlength="500"></textarea>
+					</label>
+				</p>
+				<p><button>Submit the form</button></p>
+			</form>
+		</div>
+</body>
+</html>
