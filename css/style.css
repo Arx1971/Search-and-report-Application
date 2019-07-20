@@ -1,3 +1,4 @@
+
 body{
   background-image: url('https://wallpapercave.com/wp/wp2581392.jpg');
   background-color: #cccccc;
@@ -6,15 +7,15 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  top: 10; 
-  left: 0; 
-  
+  top: 10;
+  left: 0;
+
 }
 .container{
   width: 100%;
   height: auto;
   margin: auto;
- }
+}
 
 #main-header{
   color: grey;
@@ -119,11 +120,11 @@ body{
 }
 
 .search-ui input[type="text"]{
-  position:absolute;  
+  position:absolute;
   left:30%;
   top:25%;
   width:30%;
-  background-color:white; 
+  background-color:white;
   color:grey;
 }
 
