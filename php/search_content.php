@@ -57,7 +57,7 @@
                 <?php  
                     $searchString =  $_POST['search_string'];
 
-                    $path = "/var/www/html/Search-and-report-Application/files";
+                    $path = "../files";
 
                     $dir = dir($path);
 
