@@ -21,15 +21,18 @@
         </div>
     </nav>
 
+    <script async src="https://cse.google.com/cse.js?cx=011519949149496907762:pqauqelo9wg"></script>
+    <div class="gcse-search"></div>
+
     <div class="dropdown">
         <div class="search">
-        <form action="fileUpload.php" method="post" enctype="multipart/form-data">
-            <h2 style ="color: white;">Upload a File: </h2>
-            <input style = "background-color: green; color: white; padding: 10px; font-size: 17px;
-                border: blue;"type="file" name="myfile" id="fileToUpload">
-            <button name="submit">Upload </button>
-        </form>
-    </dir>
+            <form action="fileUpload.php" method="post" enctype="multipart/form-data">
+                <h2 style ="color: white;">Upload a File: </h2>
+                <input style = "background-color: green; color: white; padding: 10px; font-size: 17px;
+                    border: blue;"type="file" name="myfile" id="fileToUpload">
+                <button name="submit">Upload</button>
+            </form>
+        </div>
     </div>
 
     <div class="dropdown">
@@ -40,8 +43,6 @@
             </form>
         </div>
     </div>
-
-    
 
     <div class="container">
 
