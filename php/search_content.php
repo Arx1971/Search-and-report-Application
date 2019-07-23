@@ -20,17 +20,28 @@
             </div>
         </div>
     </nav>
+
     <div class="dropdown">
         <div class="search">
+        <form action="fileUpload.php" method="post" enctype="multipart/form-data">
+            <h2 style ="color: white;">Upload a File: </h2>
+            <input style = "background-color: green; color: white; padding: 10px; font-size: 17px;
+                border: blue;"type="file" name="myfile" id="fileToUpload">
+            <button name="submit">Upload </button>
+        </form>
+    </dir>
+    </div>
 
+    <div class="dropdown">
+        <div class="search">
             <form class="form" method="post" action="search_content.php">
-
-                <input type="text" id="myText" name="search_string" placeholder="type here..." value="">
-
-                <input class="btn btn_submit" type="submit" color="brown" value="search" />
+                <input type="text" id="myText" name="search_string" placeholder="Search..." value="">
+                <button>Search</button>
             </form>
         </div>
     </div>
+
+    
 
     <div class="container">
 
@@ -49,9 +60,11 @@
 
                 </tr>
                 <tr>
+    
                     <th>Serial</th>
                     <th>File Name</th>
                     <th>Content</th>
+                    
                 </tr>
 
                 <?php  
